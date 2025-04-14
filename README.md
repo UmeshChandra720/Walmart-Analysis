@@ -1,34 +1,34 @@
-Walmart Customer Behavior Analysis
+# 🛒 Walmart Black Friday Sales Analysis
 
-About the Project
-This project focuses on understanding how Walmart customers behave when making purchases. We analyzed data based on gender, marital status, and age to find patterns and trends in their spending habits.
+This project performs an in-depth analysis of Walmart's Black Friday dataset, focusing on uncovering customer purchasing patterns using data science and statistical methods.
 
-Goals
-Study how different groups of customers (like men, women, married, single) spend money.
-Use simple statistical methods to get insights from the data.
-Create visuals to make the findings easy to understand.
+## 🔍 Key Objectives
 
-Tools and Methods
-Python Libraries: Pandas, Numpy, Matplotlib, Seaborn
-Techniques Used: Confidence intervals and Central Limit Theorem
+- Analyze spending behavior across gender, age, and marital status.
+- Estimate average customer purchase with **Confidence Intervals (90%, 95%, 99%)**.
+- Use **Central Limit Theorem (CLT)** to simulate sampling distributions.
+- Compare subgroups to derive actionable business insights.
 
-Data Details
-The dataset has the following columns:
-Gender: Male or Female
-Marital Status: Single or Married
-Age: Age of the customer
-Purchase: How much they spent
+## 📊 Tools & Libraries Used
 
-Insights
-1. Gender: We found out how men and women spend differently.
-2. Marital Status: Checked if being married affects how much people spend.
-3. Age: Looked at which age groups spend the most.
+- Python (Pandas, NumPy, Seaborn, Matplotlib, Scipy)
+- Google Colab for computation
+- GitHub for version control
 
-Visuals
-Created bar charts, pie charts, and histograms to show the results clearly.
+## 📈 Major Findings
 
-Suggestions
-Focus marketing on the groups that spend the most.
-Give special offers for different age or gender groups to increase sales.
-Keep products that are popular among high-spending groups in stock.
+- **Male customers** spend significantly more on average than females.
+- **Married individuals** spend ~15% more than unmarried customers.
+- **Ages 26-35** emerged as the highest spending group.
+- Distribution is **right-skewed**, and average purchases vary significantly across categories.
 
+## 📌 Business Recommendations
+
+- Target marketing campaigns for males and married customers.
+- Focus promotions on the 26–35 age group.
+- Use data-driven decisions to adjust product positioning and store layout.
+
+## 📁 Files Included
+
+- `Walmart_BlackFriday_EDA.ipynb` – Colab Notebook with code and analysis.
+- `README.md` – Project overview and findings.
